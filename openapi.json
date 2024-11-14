@@ -7,9 +7,9 @@
   },
   "paths": {
     "/": {
-      "get": {
+      "post": {
         "summary": "Root",
-        "operationId": "root__get",
+        "operationId": "root__post",
         "requestBody": {
           "content": {
             "application/json": {

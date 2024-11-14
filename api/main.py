@@ -8,7 +8,7 @@ app = FastAPI()
 class SecretData(BaseModel):
     secret: SecretStr
 
-@app.get("/")
+@app.post("/")
 async def root(
     secret_data: SecretData,
 ) -> None:
