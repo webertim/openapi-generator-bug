@@ -7,3 +7,4 @@ if __name__ == "__main__":
    client.root_post(secret_data=SecretData(
        secret=SecretStr("test")
    ))
+   print("Success!")
